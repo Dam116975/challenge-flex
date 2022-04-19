@@ -1,0 +1,110 @@
+/*général*/
+*{
+    margin: 0;
+    background-color: rgb(49, 89, 131);
+    color: white;
+}
+h1{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    font-size: 60px;
+    color: black
+    
+}
+h2{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 80px;
+    text-align: center;
+}
+/*image*/
+
+img{
+    width: 100%;
+    border: 5px whitesmoke solid;
+}
+.images{
+    width: 40%;
+    position: relative;
+    top: 100px;
+}
+.add{
+    display: flex;
+}
+span{
+    text-decoration:none;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+.add h2{
+    display: flex;
+    margin-left: 60px;
+    font-size: 40px;
+}
+/*nav*/
+.nav{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.add .nav ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:gold;
+}
+/*tab*/
+
+.nut{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+td, th{
+    border: 5px whitesmoke solid;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+/*form*/
+
+input{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border: 5px whitesmoke solid;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+textarea{
+    display: flex;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    border: 5px whitesmoke solid;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+button{
+    height: 60px;
+    width: 10%;
+    margin: auto;
+    background-color: azure;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px; 
+}
